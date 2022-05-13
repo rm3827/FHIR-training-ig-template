@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="empty.ig"/>
+  <id value="fhirtraining.ig"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>EmptyIg</h2><p>The official URL for this implementation guide is: </p><pre>http://i-tech-uw.github.io/empty-ig/ImplementationGuide/empty.ig</pre><div><p>Empty IG</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>FHIRTRAININGIG</h2><p>The official URL for this implementation guide is: </p><pre>https://intellisoft-consulting.github.io/FHIR-training-ig-template/ImplementationGuide/fhirtraining.ig</pre><div><p>Intelisoft FHIR TRAINING IG</p>
 </div></div>
   </text>
-  <url value="http://i-tech-uw.github.io/empty-ig/ImplementationGuide/empty.ig"/>
+  <url value="https://intellisoft-consulting.github.io/FHIR-training-ig-template/ImplementationGuide/fhirtraining.ig"/>
   <version value="0.1.0"/>
-  <name value="EmptyIg"/>
-  <title value="Empty IG"/>
+  <name value="FHIRTRAININGIG"/>
+  <title value="Intelisoft FHIR TRAINING IG"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2022-05-13T06:30:48+00:00"/>
-  <publisher value="I-TECH-UW"/>
+  <date value="2022-05-13T07:34:56+00:00"/>
+  <publisher value="Intelisoft"/>
   <contact>
-    <name value="I-TECH-UW"/>
+    <name value="Intelisoft"/>
     <telecom>
       <system value="url"/>
-      <value value="www.github.com/i-tech-uw"/>
+      <value value="https://github.com/IntelliSOFT-Consulting"/>
     </telecom>
     <telecom>
       <system value="email"/>
-      <value value="pmanko@uw.edu"/>
+      <value value="mmutesasira@intellisoftkenya.com"/>
     </telecom>
   </contact>
-  <description value="Empty IG&#xA;"/>
-  <packageId value="empty.ig"/>
+  <description value="Intelisoft FHIR TRAINING IG&#xA;"/>
+  <packageId value="fhirtraining.ig"/>
   <license value="CC-BY-SA-4.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7tx">
@@ -125,7 +125,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://i-tech-uw.github.io/empty-ig/history.html"/>
+        <valueString value="https://intellisoft-consulting.github.io/FHIR-training-ig-template/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

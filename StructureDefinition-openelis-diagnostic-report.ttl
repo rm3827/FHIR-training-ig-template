@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://i-tech-uw.github.io/empty-ig/StructureDefinition/openelis-diagnostic-report> a fhir:StructureDefinition;
+<https://intellisoft-consulting.github.io/FHIR-training-ig-template/StructureDefinition/openelis-diagnostic-report> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "openelis-diagnostic-report"];
   fhir:DomainResource.text [
@@ -21,24 +21,24 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://i-tech-uw.github.io/empty-ig/StructureDefinition/openelis-diagnostic-report"];
+  fhir:StructureDefinition.url [ fhir:value "https://intellisoft-consulting.github.io/FHIR-training-ig-template/StructureDefinition/openelis-diagnostic-report"];
   fhir:StructureDefinition.version [ fhir:value "0.1.0"];
   fhir:StructureDefinition.name [ fhir:value "OpenELISDiagnosticReport"];
   fhir:StructureDefinition.title [ fhir:value "OpenELIS Diagnostic Report"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-05-13T06:30:48+00:00"^^xsd:dateTime];
-  fhir:StructureDefinition.publisher [ fhir:value "I-TECH-UW"];
+  fhir:StructureDefinition.date [ fhir:value "2022-05-13T07:34:56+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.publisher [ fhir:value "Intelisoft"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "I-TECH-UW" ];
+     fhir:ContactDetail.name [ fhir:value "Intelisoft" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "www.github.com/i-tech-uw" ]
+       fhir:ContactPoint.value [ fhir:value "https://github.com/IntelliSOFT-Consulting" ]
      ], [
        fhir:index 1;
        fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "pmanko@uw.edu" ]
+       fhir:ContactPoint.value [ fhir:value "mmutesasira@intellisoftkenya.com" ]
      ]
   ];
   fhir:StructureDefinition.description [ fhir:value "DiagnosticReport resource created by a LIS"];
@@ -2070,7 +2070,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://i-tech-uw.github.io/empty-ig/StructureDefinition/openelis-diagnostic-report.ttl> a owl:Ontology;
+<https://intellisoft-consulting.github.io/FHIR-training-ig-template/StructureDefinition/openelis-diagnostic-report.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

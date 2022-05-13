@@ -14,22 +14,22 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="patient"/>
   </extension>
-  <url value="http://i-tech-uw.github.io/empty-ig/StructureDefinition/openelis-diagnostic-report"/>
+  <url value="https://intellisoft-consulting.github.io/FHIR-training-ig-template/StructureDefinition/openelis-diagnostic-report"/>
   <version value="0.1.0"/>
   <name value="OpenELISDiagnosticReport"/>
   <title value="OpenELIS Diagnostic Report"/>
   <status value="active"/>
-  <date value="2022-05-13T06:30:48+00:00"/>
-  <publisher value="I-TECH-UW"/>
+  <date value="2022-05-13T07:34:56+00:00"/>
+  <publisher value="Intelisoft"/>
   <contact>
-    <name value="I-TECH-UW"/>
+    <name value="Intelisoft"/>
     <telecom>
       <system value="url"/>
-      <value value="www.github.com/i-tech-uw"/>
+      <value value="https://github.com/IntelliSOFT-Consulting"/>
     </telecom>
     <telecom>
       <system value="email"/>
-      <value value="pmanko@uw.edu"/>
+      <value value="mmutesasira@intellisoftkenya.com"/>
     </telecom>
   </contact>
   <description value="DiagnosticReport resource created by a LIS"/>

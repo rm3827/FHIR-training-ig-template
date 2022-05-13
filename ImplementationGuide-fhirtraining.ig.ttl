@@ -5,36 +5,36 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://i-tech-uw.github.io/empty-ig/ImplementationGuide/empty.ig> a fhir:ImplementationGuide;
+<https://intellisoft-consulting.github.io/FHIR-training-ig-template/ImplementationGuide/fhirtraining.ig> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "empty.ig"];
+  fhir:Resource.id [ fhir:value "fhirtraining.ig"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>EmptyIg</h2><p>The official URL for this implementation guide is: </p><pre>http://i-tech-uw.github.io/empty-ig/ImplementationGuide/empty.ig</pre><div><p>Empty IG</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>FHIRTRAININGIG</h2><p>The official URL for this implementation guide is: </p><pre>https://intellisoft-consulting.github.io/FHIR-training-ig-template/ImplementationGuide/fhirtraining.ig</pre><div><p>Intelisoft FHIR TRAINING IG</p>\n</div></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "http://i-tech-uw.github.io/empty-ig/ImplementationGuide/empty.ig"];
+  fhir:ImplementationGuide.url [ fhir:value "https://intellisoft-consulting.github.io/FHIR-training-ig-template/ImplementationGuide/fhirtraining.ig"];
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
-  fhir:ImplementationGuide.name [ fhir:value "EmptyIg"];
-  fhir:ImplementationGuide.title [ fhir:value "Empty IG"];
+  fhir:ImplementationGuide.name [ fhir:value "FHIRTRAININGIG"];
+  fhir:ImplementationGuide.title [ fhir:value "Intelisoft FHIR TRAINING IG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-05-13T06:30:48+00:00"^^xsd:dateTime];
-  fhir:ImplementationGuide.publisher [ fhir:value "I-TECH-UW"];
+  fhir:ImplementationGuide.date [ fhir:value "2022-05-13T07:34:56+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.publisher [ fhir:value "Intelisoft"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "I-TECH-UW" ];
+     fhir:ContactDetail.name [ fhir:value "Intelisoft" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "www.github.com/i-tech-uw" ]
+       fhir:ContactPoint.value [ fhir:value "https://github.com/IntelliSOFT-Consulting" ]
      ], [
        fhir:index 1;
        fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "pmanko@uw.edu" ]
+       fhir:ContactPoint.value [ fhir:value "mmutesasira@intellisoftkenya.com" ]
      ]
   ];
-  fhir:ImplementationGuide.description [ fhir:value "Empty IG\n"];
-  fhir:ImplementationGuide.packageId [ fhir:value "empty.ig"];
+  fhir:ImplementationGuide.description [ fhir:value "Intelisoft FHIR TRAINING IG\n"];
+  fhir:ImplementationGuide.packageId [ fhir:value "fhirtraining.ig"];
   fhir:ImplementationGuide.license [ fhir:value "CC-BY-SA-4.0"];
   fhir:ImplementationGuide.fhirVersion [
      fhir:value "4.0.1";
@@ -189,7 +189,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "http://i-tech-uw.github.io/empty-ig/history.html" ]
+         fhir:Extension.valueString [ fhir:value "https://intellisoft-consulting.github.io/FHIR-training-ig-template/history.html" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -357,7 +357,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://i-tech-uw.github.io/empty-ig/StructureDefinition/openelis-diagnostic-report>;
+         fhir:link <https://intellisoft-consulting.github.io/FHIR-training-ig-template/StructureDefinition/openelis-diagnostic-report>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/openelis-diagnostic-report" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "OpenELIS Diagnostic Report" ];
@@ -460,7 +460,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://i-tech-uw.github.io/empty-ig/ImplementationGuide/empty.ig.ttl> a owl:Ontology;
+<https://intellisoft-consulting.github.io/FHIR-training-ig-template/ImplementationGuide/fhirtraining.ig.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

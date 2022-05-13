@@ -15,24 +15,24 @@
       "valueCode": "patient"
     }
   ],
-  "url": "http://i-tech-uw.github.io/empty-ig/StructureDefinition/openelis-diagnostic-report",
+  "url": "https://intellisoft-consulting.github.io/FHIR-training-ig-template/StructureDefinition/openelis-diagnostic-report",
   "version": "0.1.0",
   "name": "OpenELISDiagnosticReport",
   "title": "OpenELIS Diagnostic Report",
   "status": "active",
-  "date": "2022-05-13T06:30:48+00:00",
-  "publisher": "I-TECH-UW",
+  "date": "2022-05-13T07:34:56+00:00",
+  "publisher": "Intelisoft",
   "contact": [
     {
-      "name": "I-TECH-UW",
+      "name": "Intelisoft",
       "telecom": [
         {
           "system": "url",
-          "value": "www.github.com/i-tech-uw"
+          "value": "https://github.com/IntelliSOFT-Consulting"
         },
         {
           "system": "email",
-          "value": "pmanko@uw.edu"
+          "value": "mmutesasira@intellisoftkenya.com"
         }
       ]
     }

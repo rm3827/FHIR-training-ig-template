@@ -1,35 +1,35 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "empty.ig",
+  "id": "fhirtraining.ig",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>EmptyIg</h2><p>The official URL for this implementation guide is: </p><pre>http://i-tech-uw.github.io/empty-ig/ImplementationGuide/empty.ig</pre><div><p>Empty IG</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>FHIRTRAININGIG</h2><p>The official URL for this implementation guide is: </p><pre>https://intellisoft-consulting.github.io/FHIR-training-ig-template/ImplementationGuide/fhirtraining.ig</pre><div><p>Intelisoft FHIR TRAINING IG</p>\n</div></div>"
   },
-  "url": "http://i-tech-uw.github.io/empty-ig/ImplementationGuide/empty.ig",
+  "url": "https://intellisoft-consulting.github.io/FHIR-training-ig-template/ImplementationGuide/fhirtraining.ig",
   "version": "0.1.0",
-  "name": "EmptyIg",
-  "title": "Empty IG",
+  "name": "FHIRTRAININGIG",
+  "title": "Intelisoft FHIR TRAINING IG",
   "status": "draft",
   "experimental": true,
-  "date": "2022-05-13T06:30:48+00:00",
-  "publisher": "I-TECH-UW",
+  "date": "2022-05-13T07:34:56+00:00",
+  "publisher": "Intelisoft",
   "contact": [
     {
-      "name": "I-TECH-UW",
+      "name": "Intelisoft",
       "telecom": [
         {
           "system": "url",
-          "value": "www.github.com/i-tech-uw"
+          "value": "https://github.com/IntelliSOFT-Consulting"
         },
         {
           "system": "email",
-          "value": "pmanko@uw.edu"
+          "value": "mmutesasira@intellisoftkenya.com"
         }
       ]
     }
   ],
-  "description": "Empty IG\n",
-  "packageId": "empty.ig",
+  "description": "Intelisoft FHIR TRAINING IG\n",
+  "packageId": "fhirtraining.ig",
   "license": "CC-BY-SA-4.0",
   "fhirVersion": [
     "4.0.1"
@@ -188,7 +188,7 @@
           },
           {
             "url": "value",
-            "valueString": "http://i-tech-uw.github.io/empty-ig/history.html"
+            "valueString": "https://intellisoft-consulting.github.io/FHIR-training-ig-template/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"

@@ -1,12 +1,12 @@
 {
-  "package": "empty.ig",
+  "package": "fhirtraining.ig",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
   "extensions": [],
   "profiles": {
     "DiagnosticReport": [
       {
-        "url": "http://i-tech-uw.github.io/empty-ig/StructureDefinition/openelis-diagnostic-report",
+        "url": "https://intellisoft-consulting.github.io/FHIR-training-ig-template/StructureDefinition/openelis-diagnostic-report",
         "title": "OpenELIS Diagnostic Report"
       }
     ]
