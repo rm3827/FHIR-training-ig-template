@@ -1,7 +1,7 @@
-# OpenHIE Laboratory Workflows Implementation Guide
+# Intelisoft FHIR Training Implementation Guide
 
 ## Overview
-See Published IG here: i-tech-uw.github.io/empty-ig/
+See Published IG here: https://intellisoft-consulting.github.io/FHIR-training-ig-template
 
 ## Building Locally
 ### 1. Install nodejs
