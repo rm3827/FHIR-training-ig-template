@@ -2,24 +2,24 @@
 # │  The properties below are used to create the ImplementationGuide resource. For a list of       │
 # │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: empty.ig
-canonical: http://i-tech-uw.github.io/empty-ig
-name: EmptyIg
+id: fhirtraining.ig
+canonical: https://intellisoft-consulting.github.io/FHIR-training-ig-template
+name: FHIR TRAINING IG
 status: draft
 version: 0.1.0
 fhirVersion: 4.0.1
 # copyright:
 copyrightYear: 2021+
 releaseLabel: ci-build
-title: Empty IG
+title: Intelisoft FHIR TRAINING IG
 description: |
-  Empty IG
+  Intelisoft FHIR TRAINING IG
 license: CC-BY-SA-4.0
 publisher:
-  name: I-TECH-UW
-  url: www.github.com/i-tech-uw
-  email: pmanko@uw.edu
-  contact: Piotr Mankowski
+  name: Intelisoft
+  url: https://github.com/IntelliSOFT-Consulting
+  email: mmutesasira@intellisoftkenya.com
+  contact: Mozzy Mutesa
 experimental: true
 parameters:
   excludettl: true
