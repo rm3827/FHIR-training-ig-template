@@ -21,11 +21,28 @@ Install ruby and ruby gems: https://www.ruby-lang.org/en/documentation/installat
 https://java.com/en/download/help/download_options.html
 
 ### 5. Update IG Publisher
+Unix:
+
     ./_updatePublisher.sh
+    
+Windows:
+
+    _updatePublisher.bat
 
 ### 6. Run IG Publisher
+Unix:
+
     ./_genonce.sh
+    
+Windows:
+
+    _genonce.bat
 
 ### 7. Open Published IG
+Unix
+
     Open `./output/
 
+Windows
+
+    start output/
